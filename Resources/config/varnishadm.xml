@@ -9,7 +9,7 @@
     </parameters>
 
     <services>
-        <service id="varnish.varnishadm" class="%varnish.varnishadm.class%">
+        <service id="varnish.varnishadm" class="%varnish.varnishadm.class%" public="true">
             <argument>%varnish.admin.host%</argument>
             <argument>%varnish.admin.port%</argument>
             <argument>%varnish.admin.secret%</argument>
